@@ -1,0 +1,9 @@
+---
+- name: testing authentication
+  hosts: localhost
+  tasks: 
+  - name: testing auth
+    ping:
+  - name: printing a message
+    debug: 
+      msg: "Hello World"
