@@ -1,9 +1,7 @@
 ---
-- name: testing authentication
-  hosts: localhost
+- name: Running a sample playbook
+  hosts: all
   tasks: 
-  - name: testing auth
-    ping:
-  - name: printing a message
+  - name: Printing a message
     debug: 
       msg: "Hello World"
